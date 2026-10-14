@@ -56,7 +56,7 @@ def git_show(ref, path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("--url", default="http://127.0.0.1:8000")
+    parser.add_argument("--url", default="http://127.0.0.1:2500")
     args = parser.parse_args()
     base_url = args.url.rstrip("/")
 
